@@ -1,17 +1,18 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 body{
   text-align: center;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #06283D;
   align-items: center;
 }
 
 .container {
-  background-color: #5C2E7E;
+  background-color: #256D85;
   margin: 0 40vh;
   border-radius: 10px;
 }
@@ -23,30 +24,66 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2em;
+}
+
+.senha-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  align-self: flex-start;
+  font-size: 20px;
+}
+
+#geraSenha {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
 }
 
 button {
-  background-color: #8BBCCC;
+  align-self: center;
+  background-color: #47B5FF;
   border-color: #ffffff;
   border-radius: 4px;
-  color: #000000;
-  height: 20px;
+  color: #ffffff;
+  height: 30px;
   width: 120px;
-  margin-top: 20px;
+  margin-top: 2em;
+  font-size: 16px;
 }
 
 button:hover {
   transition: 1s;
   background-color: #4C6793;
-  color: #000000;
+  color: #ffffff;
   border-color: #ffffff;
   border-radius: 4px;
 }
 
-.senha-gerada {
+.container-senha {
   text-align: center;
+  margin-top: 2em;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.senha-gerada {
   padding-bottom: 25px;
-  text-justify: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#result {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
 }
 
 #senha {
@@ -54,4 +91,7 @@ button:hover {
   visibility: hidden;
   margin-top: 4vh;
   font-size: 16px;
+  word-break: break-all;
+  display: inline-block;
+  padding: 0 2em;
 }

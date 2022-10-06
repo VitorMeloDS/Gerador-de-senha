@@ -9,11 +9,12 @@ function gerarSenha() {
   tamanhoSenha = document.querySelector('input').value;
   if (tamanhoSenha <= 0) {
     alert('O tamanho da senha tem que ser maior que zero!')
-  } else{
+  } else if (tamanhoSenha > 100) {
+    alert('O tamanho da senha tem que ser menor que cem!')
+  } else {
     for (let index = 0; index < tamanhoSenha; index++) {
       senha.push(caracter[Math.floor((Math.random() * caracter.length))])
     }
-    document.querySelector('span').innerHTML = `A senha gerada foi : ${senha.join('')}`;
-    document.getElementById('senha').style.visibility = 'visible';
+    document.getElementsByTagName('input')[1].value = senha.join('');
   }
 }
