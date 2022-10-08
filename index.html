@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,7 @@
       <div class="senha-container">
         <label for="geraSenha" class="label"><b>Tamanho da Senha:</b></label>
         <input type="number" id="geraSenha"> <br>
+        <span id="tamanho"></span>
         <button onclick="gerarSenha()" >Gerar senha</button>
       </div>
     </div>
@@ -20,7 +21,6 @@
       <div class="senha-gerada">
         <label for="result" class="label"><b>Senha Gerada:</b></label>
         <input type="text" id="result">
-        <span id="senha"></span>
       </div>
     </div>
   </div>
