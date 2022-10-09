@@ -7,7 +7,11 @@ let caracter = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
 function gerarSenha() {
   let senha = [];
   tamanhoSenha = document.querySelector('input').value;
-  if (tamanhoSenha <= 0) {
+  if (tamanhoSenha == ''){
+    document.querySelector('#tamanho').innerHTML = 'Digite algum número entre 1 e 100!';
+    document.getElementById('tamanho').style.visibility = 'visible';
+  }
+  else if (tamanhoSenha <= 0) {
     document.querySelector('#tamanho').innerHTML = 'O tamanho da senha tem que ser maior que zero!';
     document.getElementById('tamanho').style.visibility = 'visible';
   } else if (tamanhoSenha > 100) {
