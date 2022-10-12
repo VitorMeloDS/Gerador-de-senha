@@ -1,0 +1,23 @@
+@media screen and (max-width: 830px) {
+  .container {
+    width: 30%;
+    height: 40%;
+    padding: 100px;
+  }
+
+  #geraSenha {
+    width: 230px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding-left: 10px;
+  }
+
+  #result {
+    width: 230px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding-left: 10px;
+  }
+}
