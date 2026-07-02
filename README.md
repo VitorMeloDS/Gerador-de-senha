@@ -1,22 +1,45 @@
-# Gerador de senha
+# 🔐 Gerador de Senha
 
-* ### Está é a página do gerador de senha. :small_red_triangle_down:
+Gerador de senha seguro e personalizável com interface moderna e recursos avançados.
 
-![tela inicial](https://user-images.githubusercontent.com/96471272/194729403-42ea54c1-dfe7-4809-8589-f16398314ec2.png)
+![Badge](https://img.shields.io/badge/status-active-success)
+![Badge](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![Badge](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Badge](https://img.shields.io/badge/responsive-yes-brightgreen)
+![Badge](https://img.shields.io/badge/security-high-success)
 
+---
 
-## Como funciona
+## 🎯 Sobre o Projeto
 
-* ### O programa gera uma senha aleatória de acordo com o tamanho que for escolhido. O tamnaho da senha tem que ser entre o 1 e 100, caso um valor para gera a senha seja diferente irá ser mostrado duas mensagens uma para senha igual ou menor que zero e outra para o tamanho maior que cem.
+O **Gerador de Senha** é uma ferramenta web que cria senhas aleatórias e seguras com base nas preferências do usuário. Desenvolvido com HTML, CSS e JavaScript puros, o projeto oferece uma experiência intuitiva e visualmente atraente.
 
-* ### Erro para o tamanho igual ou menor que zero. :small_red_triangle_down:
+### ✨ Funcionalidades
 
-![erro](https://user-images.githubusercontent.com/96471272/194729785-b3d102ae-894d-48c4-ad5f-9339ab91f762.png)
+- ✅ **Geração de senha com caracteres obrigatórios** - Garante que os tipos de caracteres selecionados sempre apareçam na senha
+- 🔢 **Controle de tamanho** - Ajuste entre 4 e 128 caracteres com botões + e -
+- 🎯 **Personalização avançada** - Escolha entre:
+  - Letras maiúsculas (A-Z)
+  - Letras minúsculas (a-z)
+  - Números (0-9)
+  - Símbolos especiais (!@#$%&*{}[]?;())
+- 📊 **Indicador de força da senha** - Visualize a força da senha em tempo real (Fraca/Média/Forte)
+- 📋 **Copiar senha** - Botão com feedback visual para copiar a senha gerada
+- 🔄 **Geração automática** - Atualiza a senha ao alterar as opções
+- 📱 **Design responsivo** - Adaptável a todos os dispositivos
+- 🎨 **Interface moderna** - Animações suaves e feedback visual
 
+---
 
-* ### Erro para o tamanho maior que cem. :small_red_triangle_down:
+## 🚀 Como Executar
 
-![erro](https://user-images.githubusercontent.com/96471272/194729855-6390e034-ccc6-431d-993a-9f618fd7035f.png)
+### Pré-requisitos
+- Navegador web moderno (Chrome, Firefox, Edge, Safari)
+- Conexão com internet (para fontes)
 
+### Instalação
 
-## Desenvolvido por [Vitor Melo](https://github.com/VitorMeloDS). :grin:
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/gerador-senha.git
